@@ -1,0 +1,12 @@
+C:\projects\Rega\Backend\Rega.BE\Rega.Data\Rega.DataHandler\obj\Debug\net6.0\Rega.DataHandler.csproj.AssemblyReference.cache
+C:\projects\Rega\Backend\Rega.BE\Rega.Data\Rega.DataHandler\obj\Debug\net6.0\Rega.DataHandler.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\Rega\Backend\Rega.BE\Rega.Data\Rega.DataHandler\obj\Debug\net6.0\Rega.DataHandler.AssemblyInfoInputs.cache
+C:\projects\Rega\Backend\Rega.BE\Rega.Data\Rega.DataHandler\obj\Debug\net6.0\Rega.DataHandler.AssemblyInfo.cs
+C:\projects\Rega\Backend\Rega.BE\Rega.Data\Rega.DataHandler\obj\Debug\net6.0\Rega.DataHandler.csproj.CoreCompileInputs.cache
+C:\projects\Rega\Backend\Rega.BE\Rega.Data\Rega.DataHandler\bin\Debug\net6.0\Rega.DataHandler.deps.json
+C:\projects\Rega\Backend\Rega.BE\Rega.Data\Rega.DataHandler\bin\Debug\net6.0\Rega.DataHandler.dll
+C:\projects\Rega\Backend\Rega.BE\Rega.Data\Rega.DataHandler\bin\Debug\net6.0\Rega.DataHandler.pdb
+C:\projects\Rega\Backend\Rega.BE\Rega.Data\Rega.DataHandler\obj\Debug\net6.0\Rega.DataHandler.dll
+C:\projects\Rega\Backend\Rega.BE\Rega.Data\Rega.DataHandler\obj\Debug\net6.0\refint\Rega.DataHandler.dll
+C:\projects\Rega\Backend\Rega.BE\Rega.Data\Rega.DataHandler\obj\Debug\net6.0\Rega.DataHandler.pdb
+C:\projects\Rega\Backend\Rega.BE\Rega.Data\Rega.DataHandler\obj\Debug\net6.0\ref\Rega.DataHandler.dll

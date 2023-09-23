@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fWoeakZzd9Bc78+PQRDrTehM91HJE0Lb0nsJJwQJ4Ks=",
+  "Source": "Rega.Api",
+  "BasePath": "_content/Rega.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
