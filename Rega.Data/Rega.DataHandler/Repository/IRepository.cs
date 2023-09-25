@@ -18,6 +18,7 @@ namespace Rega.DataHandler.Repository
         Task DeleteAsync(TEntity entity);
         void DeleteById(int id);
         Task DeleteByIdAsync(int id);
+        TEntity GetById(int id);
         IQueryable<TEntity> Queryable();
         IQueryable<TEntity> GetAll();
         string GetUserName();

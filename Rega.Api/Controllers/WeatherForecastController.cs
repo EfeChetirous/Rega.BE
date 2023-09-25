@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Web.Resource;
+using Rega.OfferFeature.Services;
 
 namespace Rega.Api.Controllers
 {
@@ -16,15 +17,18 @@ namespace Rega.Api.Controllers
     };
 
         private readonly ILogger<WeatherForecastController> _logger;
-
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        private readonly IOfferService _offerService;
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, IOfferService offerService)
         {
             _logger = logger;
+            _offerService = offerService;
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
+            var product = _offerService.GetProductById(1);
+
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),

@@ -10,3 +10,5 @@ C:\projects\Rega\Backend\Rega.BE\Rega.Data\Rega.DataHandler\obj\Debug\net6.0\Reg
 C:\projects\Rega\Backend\Rega.BE\Rega.Data\Rega.DataHandler\obj\Debug\net6.0\refint\Rega.DataHandler.dll
 C:\projects\Rega\Backend\Rega.BE\Rega.Data\Rega.DataHandler\obj\Debug\net6.0\Rega.DataHandler.pdb
 C:\projects\Rega\Backend\Rega.BE\Rega.Data\Rega.DataHandler\obj\Debug\net6.0\ref\Rega.DataHandler.dll
+C:\projects\Rega\Backend\Rega.BE\Rega.Data\Rega.DataHandler\bin\Debug\net6.0\Rega.DataHandler.runtimeconfig.json
+C:\projects\Rega\Backend\Rega.BE\Rega.Data\Rega.DataHandler\obj\Debug\net6.0\Rega.DataHandler.genruntimeconfig.cache

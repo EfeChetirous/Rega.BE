@@ -48,6 +48,11 @@ namespace Rega.DataHandler.Repository
             var query = _dbSet.Find(keyValues);
             return query;
         }
+        public virtual TEntity GetById(int id)
+        {
+            var query = _dbSet.Find(id);
+            return query;
+        }
         public IQueryable<TEntity> Find(System.Linq.Expressions.Expression<Func<TEntity, bool>> predicate)
         {
             var query = _dbSet.AsQueryable();

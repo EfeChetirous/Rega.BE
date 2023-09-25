@@ -10,8 +10,13 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.21" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="6.0.21" />
-    <PackageReference Include="Microsoft.Identity.Web" Version="1.16.0"/>
+    <PackageReference Include="Microsoft.Identity.Web" Version="1.16.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rega.Controllers\Rega.OfferFeature\Rega.OfferFeature.csproj" />
+    <ProjectReference Include="..\Rega.Data\Rega.DataHandler\Rega.DataHandler.csproj" />
   </ItemGroup>
 
 </Project>

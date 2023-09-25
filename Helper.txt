@@ -1,0 +1,1 @@
+scaffold-DbContext 'Data Source=DESKTOP-C5C8ML9;Initial Catalog=RegaDB;Connection Timeout=240;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=True;Integrated Security=true' Microsoft.EntityFrameworkCore.SqlServer -OutputDir "DummyEntity" -Force -Context 'RegaDbContext'
