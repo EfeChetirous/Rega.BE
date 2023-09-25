@@ -22,6 +22,7 @@ namespace Rega.OfferFeature
             serviceCollection.AddScoped<IDataContext, RegaDbContext>();
             serviceCollection.AddScoped<IRepository<Product>, Repository<Product>>();
             serviceCollection.AddScoped<IOfferService, OfferService>();
+
         }
     }
 }
