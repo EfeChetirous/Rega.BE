@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Rega.Data\Rega.DataHandler\Rega.DataHandler.csproj" />
+    <ProjectReference Include="..\..\Rega.Models\Rega.Dto\Rega.Dto.csproj" />
   </ItemGroup>
 
 </Project>

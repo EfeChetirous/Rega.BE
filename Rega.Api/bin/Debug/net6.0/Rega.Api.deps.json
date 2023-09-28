@@ -696,11 +696,17 @@
           "Rega.DataHandler.dll": {}
         }
       },
+      "Rega.Dto/1.0.0": {
+        "runtime": {
+          "Rega.Dto.dll": {}
+        }
+      },
       "Rega.OfferFeature/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
-          "Rega.DataHandler": "1.0.0"
+          "Rega.DataHandler": "1.0.0",
+          "Rega.Dto": "1.0.0"
         },
         "runtime": {
           "Rega.OfferFeature.dll": {}
@@ -1184,6 +1190,11 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "Rega.DataHandler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rega.Dto/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

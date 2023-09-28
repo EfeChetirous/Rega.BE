@@ -5,6 +5,7 @@ using Rega.DataHandler.Entities;
 using Rega.DataHandler.Entity;
 using Rega.DataHandler.Repository;
 using Rega.OfferFeature.Services;
+using Rega.OfferFeature.UseCases;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +23,8 @@ namespace Rega.OfferFeature
             serviceCollection.AddScoped<IDataContext, RegaDbContext>();
             serviceCollection.AddScoped<IRepository<Product>, Repository<Product>>();
             serviceCollection.AddScoped<IOfferService, OfferService>();
-
+            serviceCollection.AddScoped<IOfferUseCase, OfferUseCase>();
+            
         }
     }
 }
