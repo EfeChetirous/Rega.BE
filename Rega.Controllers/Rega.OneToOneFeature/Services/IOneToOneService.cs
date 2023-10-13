@@ -1,15 +1,15 @@
 ﻿using Rega.DataHandler.Entities;
+using Rega.Dto.ApiReultModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Rega.OfferFeature.Services
+namespace Rega.OneToOneFeature.Services
 {
-    public interface IOfferService
+    public interface IOneToOneService
     {
-        Product GetProductById(int id);
-        Offer GetActiveOfferByStaffId(int id);
+        Result SaveOneToOneMatch(OneToOne oneToOneModel);
     }
 }

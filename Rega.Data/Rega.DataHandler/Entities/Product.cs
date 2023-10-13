@@ -13,4 +13,5 @@ public partial class Product : BaseEntity
     public string? ProductDescription { get; set; }
 
     public int? StockCount { get; set; }
+
 }

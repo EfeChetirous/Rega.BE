@@ -19,8 +19,8 @@ namespace Rega.Api.Controllers
         [Route("GetActiveOffer")]
         public ActiveOfferModel GetActiveOffer(int id)
         {
-            var product = _offerUseCase.GetActiveOffer();
-            return product;
+            var offer = _offerUseCase.GetActiveOffer(id);
+            return offer;
         }
     }
 }

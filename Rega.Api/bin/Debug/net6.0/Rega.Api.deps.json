@@ -13,6 +13,7 @@
           "Microsoft.Identity.Web": "1.16.0",
           "Rega.DataHandler": "1.0.0",
           "Rega.OfferFeature": "1.0.0",
+          "Rega.OneToOneFeature": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
@@ -711,6 +712,15 @@
         "runtime": {
           "Rega.OfferFeature.dll": {}
         }
+      },
+      "Rega.OneToOneFeature/1.0.0": {
+        "dependencies": {
+          "Rega.DataHandler": "1.0.0",
+          "Rega.Dto": "1.0.0"
+        },
+        "runtime": {
+          "Rega.OneToOneFeature.dll": {}
+        }
       }
     }
   },
@@ -1200,6 +1210,11 @@
       "sha512": ""
     },
     "Rega.OfferFeature/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rega.OneToOneFeature/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

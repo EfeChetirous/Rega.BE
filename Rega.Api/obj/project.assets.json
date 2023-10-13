@@ -1225,6 +1225,20 @@
         "runtime": {
           "bin/placeholder/Rega.OfferFeature.dll": {}
         }
+      },
+      "Rega.OneToOneFeature/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Rega.DataHandler": "1.0.0",
+          "Rega.Dto": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Rega.OneToOneFeature.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Rega.OneToOneFeature.dll": {}
+        }
       }
     }
   },
@@ -3335,6 +3349,11 @@
       "type": "project",
       "path": "../Rega.Controllers/Rega.OfferFeature/Rega.OfferFeature.csproj",
       "msbuildProject": "../Rega.Controllers/Rega.OfferFeature/Rega.OfferFeature.csproj"
+    },
+    "Rega.OneToOneFeature/1.0.0": {
+      "type": "project",
+      "path": "../Rega.Controllers/Rega.OneToOneFeature/Rega.OneToOneFeature.csproj",
+      "msbuildProject": "../Rega.Controllers/Rega.OneToOneFeature/Rega.OneToOneFeature.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3344,6 +3363,7 @@
       "Microsoft.Identity.Web >= 1.16.0",
       "Rega.DataHandler >= 1.0.0",
       "Rega.OfferFeature >= 1.0.0",
+      "Rega.OneToOneFeature >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -3382,6 +3402,9 @@
           "projectReferences": {
             "C:\\projects\\Rega\\Backend\\Rega.BE\\Rega.Controllers\\Rega.OfferFeature\\Rega.OfferFeature.csproj": {
               "projectPath": "C:\\projects\\Rega\\Backend\\Rega.BE\\Rega.Controllers\\Rega.OfferFeature\\Rega.OfferFeature.csproj"
+            },
+            "C:\\projects\\Rega\\Backend\\Rega.BE\\Rega.Controllers\\Rega.OneToOneFeature\\Rega.OneToOneFeature.csproj": {
+              "projectPath": "C:\\projects\\Rega\\Backend\\Rega.BE\\Rega.Controllers\\Rega.OneToOneFeature\\Rega.OneToOneFeature.csproj"
             },
             "C:\\projects\\Rega\\Backend\\Rega.BE\\Rega.Data\\Rega.DataHandler\\Rega.DataHandler.csproj": {
               "projectPath": "C:\\projects\\Rega\\Backend\\Rega.BE\\Rega.Data\\Rega.DataHandler\\Rega.DataHandler.csproj"

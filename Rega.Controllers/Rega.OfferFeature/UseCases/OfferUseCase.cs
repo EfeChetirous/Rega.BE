@@ -1,4 +1,5 @@
 ﻿using Rega.Dto.Dtos;
+using Rega.OfferFeature.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,15 +10,21 @@ namespace Rega.OfferFeature.UseCases
 {
     public class OfferUseCase : IOfferUseCase
     {
-        public ActiveOfferModel GetActiveOffer()
+        private readonly IOfferService _offerService;
+        public OfferUseCase(IOfferService offerService)
         {
-            //dummy data
+            _offerService = offerService;
+        }
+        public ActiveOfferModel GetActiveOffer(int id)
+        {
+            var offerEntity = _offerService.GetActiveOfferByStaffId(id);
+            
             ActiveOfferModel activeOffer = new ActiveOfferModel()
             {
-                Id = 1,
-                Name = "Kredi Satış Teklifi!",
-                OfferDateRange = "Başlangıç Tarihi: 2023-09-01 - Bitiş Tarihi : 2023-09-30",
-                OfferResultMessage = "Yukarıda belirtilen tarih aralıklarında 15 kredi satışı hedefi size atanmıştır. Başarılar dileriz."
+                Id = offerEntity.Id,
+                Name = offerEntity?.OfferName,
+                OfferDateRange = $"Başlangıç Tarihi:{offerEntity.OfferStarDate.Value.ToShortDateString()} - Bitiş Tarihi : {offerEntity.OfferEndDate.Value.ToShortDateString()}",
+                OfferResultMessage = offerEntity?.OfferMessage
             };
 
             return activeOffer;

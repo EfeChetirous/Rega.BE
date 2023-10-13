@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Rega.Controllers\Rega.OfferFeature\Rega.OfferFeature.csproj" />
+    <ProjectReference Include="..\Rega.Controllers\Rega.OneToOneFeature\Rega.OneToOneFeature.csproj" />
     <ProjectReference Include="..\Rega.Data\Rega.DataHandler\Rega.DataHandler.csproj" />
   </ItemGroup>
 

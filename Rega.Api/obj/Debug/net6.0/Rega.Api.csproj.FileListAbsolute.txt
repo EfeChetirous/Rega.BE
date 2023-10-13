@@ -88,3 +88,5 @@ C:\projects\Rega\Backend\Rega.BE\Rega.Api\bin\Debug\net6.0\Rega.OfferFeature.pdb
 C:\projects\Rega\Backend\Rega.BE\Rega.Api\bin\Debug\net6.0\Rega.DataHandler.pdb
 C:\projects\Rega\Backend\Rega.BE\Rega.Api\bin\Debug\net6.0\Rega.Dto.dll
 C:\projects\Rega\Backend\Rega.BE\Rega.Api\bin\Debug\net6.0\Rega.Dto.pdb
+C:\projects\Rega\Backend\Rega.BE\Rega.Api\bin\Debug\net6.0\Rega.OneToOneFeature.dll
+C:\projects\Rega\Backend\Rega.BE\Rega.Api\bin\Debug\net6.0\Rega.OneToOneFeature.pdb

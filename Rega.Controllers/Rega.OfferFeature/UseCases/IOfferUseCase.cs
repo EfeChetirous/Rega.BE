@@ -9,6 +9,6 @@ namespace Rega.OfferFeature.UseCases
 {
     public interface IOfferUseCase
     {
-        ActiveOfferModel GetActiveOffer();
+        ActiveOfferModel GetActiveOffer(int id);
     }
 }
